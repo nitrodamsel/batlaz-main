@@ -1,0 +1,18 @@
+.popup:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to bottom,
+
+    rgba(0, 0, 0, 0.449) 14%,
+    rgba(20, 20, 20, 0.879)
+  );
+  opacity: 1;
+  border-radius: 10px;
+  z-index: 1 !important;
+}

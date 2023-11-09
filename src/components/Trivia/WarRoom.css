@@ -1,0 +1,49 @@
+@media (prefers-reduced-motion: no-preference) {
+  .sandclock {
+    animation: App-logo-spin infinite 4s linear;
+  }
+}
+
+@keyframes sandclock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.css-186l2rg {
+  color: white;
+}
+.css-j2ph2z {
+  color: white;
+}
+
+.chakra-accordion__icon {
+  color: white !important;
+}
+
+.questions::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1c1a1e !important;
+}
+
+.questions::-webkit-scrollbar {
+  width: 6px;
+  background-color: #1c1a1e !important;
+}
+
+.questions::-webkit-scrollbar-thumb {
+  background-color: #7e20c9;
+  border-radius: 10px;
+}
+
+.chakra-checkbox__control {
+  border-color: #716b76 !important;
+}
+.chakra-checkbox__control[aria-checked="true"],
+.chakra-checkbox__control[data-checked] {
+  background-color: #7e20c9 !important;
+  color: white !important;
+}

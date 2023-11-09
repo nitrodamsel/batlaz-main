@@ -1,0 +1,74 @@
+.hero-banner {
+  background-color: #c8c8c8;
+}
+
+.gray-div {
+  background-color: #ebebeb;
+}
+
+.gray-circle-div {
+  background-color: #d9d9d9;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 120px;
+  margin-left: -40px;
+  /* background-color: #c6c6c6; */
+}
+
+/* h1,
+h2,
+h3,
+h4 {
+  color: #484848;
+} */
+
+/* .border {
+  border: 0.5px solid #7E20C9;
+} */
+
+.center {
+  text-align: center !important;
+}
+
+.hero-div {
+  clip-path: polygon(12% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.view-div {
+  width: 25% !important;
+}
+
+.view-div:hover {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #7e20c9;
+}
+
+.view-div:hover .view-profile {
+  background-color: #7e20c9;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.swiper-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px !important;
+}
+
+.swipe-container {
+  height: 80vh;
+}
+
+@media (max-width: 500px) {
+  .circle {
+    width: 180px;
+    margin-left: -60px;
+    margin-bottom: -25px !important;
+  }
+
+  .swipe-container {
+    height: 100% !important;
+  }
+}

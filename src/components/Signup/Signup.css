@@ -1,0 +1,26 @@
+.react-tel-input .form-control {
+  color: hsla(273, 5%, 44%, 1);
+}
+
+.signup-input--placeholder::placeholder {
+  color: hsla(273, 5%, 44%, 1);
+}
+
+.signup-input--placeholder:focus {
+  color: #fff;
+}
+
+.mantine-DatePicker-root {
+  width: 100%;
+}
+
+.mantine-DatePicker-input {
+  background-color: black;
+  border: none;
+  font: inherit;
+  color: hsla(273, 5%, 44%, 1);
+}
+
+.mantine-DatePicker-input::placeholder {
+  color: hsla(273, 5%, 44%, 1);
+}

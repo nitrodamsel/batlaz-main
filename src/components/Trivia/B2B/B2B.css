@@ -1,0 +1,8 @@
+.create-div {
+  clip-path: polygon(21% 0, 25% 8%, 100% 8%, 100% 100%, 0 99%, 0 0);
+}
+
+.bg-blur {
+  background-color: rgba(19, 19, 19, 0.829);
+  backdrop-filter: blur(1px);
+}

@@ -1,0 +1,208 @@
+.play-div,
+.view-profile {
+  opacity: 0;
+  display: none;
+}
+
+.latest-div:hover .play-div {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+
+  width: 95px;
+  height: 45px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -8.5px;
+}
+
+.latest-div {
+  transition: all 0.5s ease-in-out;
+}
+
+.latest-div:hover {
+  transition: all 0.5s ease-in-out;
+}
+
+.game-div:hover .play-div {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+
+  width: 95px;
+  height: 45px;
+  background-color: #7e20c9;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -2px;
+}
+
+.game-div {
+  transition: all 0.5s ease-in-out;
+}
+
+.game-div:hover {
+  transition: all 0.5s ease-in-out;
+  height: 50vh;
+}
+
+.view-div:hover .view-profile {
+  opacity: 1;
+  background-color: #7e20c9;
+  transition: all 0.5s ease-in-out;
+}
+
+.view-div:hover {
+  transition: all 0.5s ease-in-out !important;
+}
+
+.view-div:hover .recent-img {
+  padding: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+.view-div:hover .recent-text {
+  margin-top: -2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.upper-div {
+  background: linear-gradient(0deg, #1c1a1e, #000000 80%) no-repeat;
+}
+
+.leftPoly {
+  clip-path: polygon(40% 0, 45% 11%, 100% 11%, 100% 100%, 0 100%, 0 0);
+  background-image: linear-gradient(#000000 80%, #060606);
+}
+
+.leftPoly2 {
+  clip-path: polygon(40% 0, 45% 9%, 100% 9%, 100% 100%, 0 100%, 0 0);
+}
+
+.leftPoly:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(0, 0, 0),
+    rgba(20, 20, 20, 0.048)
+  );
+  opacity: 1;
+}
+
+.rightPolynew {
+  clip-path: polygon(55% 11%, 60% 0, 100% 0, 100% 100%, 0 100%, 0 11%);
+  background-image: linear-gradient(#000000 80%, #060606);
+}
+
+.rightPoly {
+  clip-path: polygon(55% 11%, 60% 0, 100% 0, 100% 100%, 0 100%, 0 11%);
+  background-image: linear-gradient(#000000 80%, #060606);
+}
+
+.rightPoly:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to left,
+
+    rgb(0, 0, 0),
+    rgba(20, 20, 20, 0.048)
+  );
+  opacity: 1;
+}
+
+.games:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 30%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to bottom,
+
+    rgb(0, 0, 0),
+    rgba(13, 13, 13, 0.147)
+  );
+  opacity: 1;
+}
+
+.shape {
+  clip-path: polygon(59% 55%, 63% 35%, 100% 35%, 100% 100%, 0 100%, 0% 55%);
+  background-image: linear-gradient(#000000 80%, #060606);
+}
+
+.upcoming:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to left,
+    rgb(8, 8, 8),
+    rgba(8, 8, 8, 0.725)
+  );
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+.rightpoly {
+  clip-path: polygon(55% 11%, 60% 0, 100% 0, 100% 100%, 0 100%, 0 11%);
+}
+.rightpoly:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to left,
+
+    rgb(0, 0, 0),
+    rgba(20, 20, 20, 0.048)
+  );
+  opacity: 1;
+}
+
+@media (max-width: 500px) {
+  .leftPoly2 {
+    clip-path: polygon(35% 0, 45% 3%, 100% 3%, 100% 100%, 0 100%, 0 0);
+  }
+
+  .leftPoly {
+    clip-path: polygon(35% 0, 45% 9%, 100% 9%, 100% 100%, 0 100%, 0 0);
+  }
+
+  .rightpoly {
+    clip-path: polygon(55% 9%, 65% 0, 100% 0, 100% 100%, 0 100%, 0 9%);
+  }
+}
+/* @media only screen and (min-width: 375px) and (max-width: 767px) { Your Styles... } */
+/* 
+*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .latest-card {
+    height: 51vh !important;
+  }
+  .latest-card:hover {
+    height: 53vh !important;
+  }
+}

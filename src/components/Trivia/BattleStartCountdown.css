@@ -1,0 +1,34 @@
+@media (prefers-reduced-motion: no-preference) {
+  .sandclock {
+    animation: App-logo-spin infinite 4s linear;
+  }
+}
+
+@keyframes sandclock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.counter {
+  font-size: 8rem;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 3px #7e20c9;
+}
+
+.alternative {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+  font-size: 12rem;
+  font-family: var(--font);
+  /* Here we use the webkits text-fill-color && text-stroke to produce a stroke of 2px black
+  This method produces a more even outline around the text. But again, this might not be
+  browser compatible, or backwards browser compatible (passing it through autoprefixer should
+  let us know if it is or not.) */
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px var(--alt-stroke-color);
+}

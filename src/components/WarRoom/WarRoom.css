@@ -1,0 +1,30 @@
+.join-div {
+  opacity: 0;
+}
+
+.war-divs:hover {
+  border: 1px solid #7e20c9;
+  transition: all 0.7s ease-in;
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+  /* top: -15px; */
+}
+
+.war-divs:hover .join-div {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.extra-text {
+  display: none;
+}
+
+.war-divs:hover .extra-text {
+  display: block;
+  transition: all 0.7s ease-out;
+}
+
+.war-divs:hover .extra-div {
+  margin-top: -5.1rem;
+  transition: all 0.7s ease-out;
+}

@@ -1,0 +1,24 @@
+.join-div {
+  opacity: 0;
+}
+
+.war-div:hover {
+  border: 1px solid #7e20c9;
+  transition: all 0.7s ease-in;
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+  top: -15px;
+}
+
+.war-div:hover .join-div {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.newpoly {
+  clip-path: polygon(17% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.bg-blur {
+  background-color: rgba(19, 19, 19, 0.829);
+  backdrop-filter: blur(1px);
+}

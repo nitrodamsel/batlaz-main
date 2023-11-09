@@ -1,0 +1,175 @@
+.midbox {
+  clip-path: polygon(44% 0, 52% 11%, 100% 11%, 100% 100%, 0 100%, 0 0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sandclock {
+    animation: App-logo-spin infinite 4s linear;
+  }
+}
+
+@keyframes sandclock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.midbox:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0) 14%,
+    rgba(20, 20, 20, 0.304)
+  );
+  opacity: 1;
+  z-index: 0 !important;
+}
+
+.popup:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to bottom,
+
+    rgba(0, 0, 0, 0.449) 14%,
+    rgba(20, 20, 20, 0.807)
+  );
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.popup-inner:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to top,
+
+    rgba(0, 0, 0, 0.449) 14%,
+    rgba(20, 20, 20, 0.651)
+  );
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.css-1o5hgn7 {
+  background-color: #701cb3 !important;
+}
+
+.css-116nhu8 {
+  background: #1a181c !important;
+}
+
+.chakra-radio__control[aria-checked="true"],
+.chakra-radio__control[data-checked] {
+  background: #701cb3;
+  border-color: #701cb3;
+  color: white;
+}
+
+.wintrophy {
+  animation: wintrophy 3s ease infinite;
+  height: 65px !important;
+}
+@keyframes wintrophy {
+  10% {
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1);
+  }
+
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.lose {
+  animation: lose 2s ease infinite;
+  height: 80px !important;
+}
+@keyframes lose {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.flagcountry {
+  border-radius: 4px;
+}
+
+.border-box {
+  border: 2px solid;
+  border-color: yellow;
+  z-index: 9999999 !important;
+  clip-path: polygon(44% 0, 52% 11%, 100% 11%, 100% 100%, 0 100%, 0 0);
+}
+
+.shape-outer {
+  display: flex;
+  flex-shrink: 0;
+  height: calc(150px + 4vw);
+  width: calc(150px + 4vw);
+  margin: 15px;
+  z-index: 99 !important;
+}
+
+.shape-inner {
+  height: 99.4%;
+  width: calc(130px + 4vw);
+  background-size: cover;
+  margin: auto;
+}
+
+.pentagon {
+  -webkit-clip-path: polygon(44% 0, 52% 11%, 100% 11%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(44% 0, 52% 11%, 100% 11%, 100% 100%, 0 100%, 0 0);
+}
+
+.inner-div {
+  z-index: 99999 !important;
+}
+
+.css-v9b9hc {
+  backdrop-filter: blur(0px) !important;
+  background-color: none !important;
+}
+
+#modalAbsoluteHeader {
+  -webkit-text-stroke: 2.5px #7e20c9;
+  font-weight: 900;
+}
